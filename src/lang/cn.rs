@@ -636,5 +636,16 @@ pub static ref T: std::collections::HashMap<&'static str, &'static str> =
         ("Requires at least {} characters", "不少于{}个字符"),
         ("Wrong PIN", "PIN 码错误"),
         ("Set PIN", "设置 PIN 码"),
+        ("Enable trusted devices", "启用信任设备"),
+        ("Manage trusted devices", "管理信任设备"),
+        ("Platform", "平台"),
+        ("Days remaining", "剩余天数"),
+        ("enable-trusted-devices-tip", "允许受信任的设备跳过 2FA 验证"),
+        ("Parent directory", "父目录"),
+        ("Resume", "继续"),
+        ("Invalid file name", "无效文件名"),
+        ("one-way-file-transfer-tip", "被控端启用了单项文件传输"),
+        ("Authentication Required", "需要身份验证"),
+        ("Authenticate", "认证"),
     ].iter().cloned().collect();
 }
